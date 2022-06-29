@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="500222f9-7ce6-4a0d-a60a-fe41d7388db6">
+  <name>ЭмуляцияMagDelivery</name>
+  <synonym>
+    <key>ru</key>
+    <value>Эмуляция mag delivery</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.ТранспортныеСредства</content>
+  <content>Document.ЗаказКлиента</content>
+  <content>HTTPService.ОбменMagDelivery</content>
+  <content>Document.Рейс</content>
+  <content>Catalog.ФизическиеЛица</content>
+  <content>DataProcessor.ПанельАдминистрированияMagDelivery</content>
+  <content>Enum.ВерсииAPIMagDelivery</content>
+  <content>Constant.ВерсияAPIMagDelivery</content>
+  <content>Constant.НастройкиОбменаMagDelivery</content>
+  <content>CommonModule.ЭмуляцияMagDelivery</content>
+</mdclass:Subsystem>

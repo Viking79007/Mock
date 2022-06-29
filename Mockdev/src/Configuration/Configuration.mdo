@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4d223a3c-c95a-4269-8ea1-f2441e4c3b7d">
+  <name>MockБаза</name>
+  <synonym>
+    <key>ru</key>
+    <value>Mock база</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="d6e15fb4-d9b1-479c-a3da-5c6a191b0e36"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="72e07c45-f0af-444c-8277-12535b344321"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="51065d19-f64e-434b-b378-0e935c7ba91e"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="91d9cdef-817d-4cc0-aac9-bda50ba40535"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="43edb5e5-295c-4b2e-9576-d6b5099f719b"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="9f5cb84d-8b6b-4956-af82-28e75ff23ae0"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="85a67004-fd44-45c5-817d-3274e56b886b"/>
+  <configurationExtensionCompatibilityMode>8.3.20</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.20</compatibilityMode>
+  <languages uuid="4163c28d-403a-452c-a7ea-2c02ac97fbde">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.ЭмуляцияMagDelivery</subsystems>
+  <roles>Role.Администратор</roles>
+  <commonModules>CommonModule.ЭмуляцияMagDelivery</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначения</commonModules>
+  <commonModules>CommonModule.СтроковыеФункцииКлиентСервер</commonModules>
+  <commonModules>CommonModule.ИнструментыВебСервисов</commonModules>
+  <httpServices>HTTPService.ОбменMagDelivery</httpServices>
+  <httpServices>HTTPService.ОбменMagPay</httpServices>
+  <constants>Constant.ВерсияAPIMagDelivery</constants>
+  <constants>Constant.НастройкиОбменаMagDelivery</constants>
+  <catalogs>Catalog.ТранспортныеСредства</catalogs>
+  <catalogs>Catalog.ФизическиеЛица</catalogs>
+  <documents>Document.ЗаказКлиента</documents>
+  <documents>Document.Рейс</documents>
+  <documents>Document.ЗаказКлиентаМагПэй</documents>
+  <documents>Document.ЗаказПоставщику</documents>
+  <enums>Enum.ВерсииAPIMagDelivery</enums>
+  <enums>Enum.ТипыДоставки</enums>
+  <enums>Enum.СпособыОплатыМагПэй</enums>
+  <enums>Enum.СостоянияЗаказовМагПэй</enums>
+  <enums>Enum.ТипыОперацийФискальногоРегистратораМагПэй</enums>
+  <enums>Enum.ТипыНалоговМагПэй</enums>
+  <enums>Enum.ВерсииAPIМагПэй</enums>
+  <dataProcessors>DataProcessor.ПанельАдминистрированияMagDelivery</dataProcessors>
+</mdclass:Configuration>

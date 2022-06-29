@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1c3e291d-0758-4840-a8fd-ff7f6e010f34">
+  <producedTypes>
+    <refType typeId="c22cdb7c-006e-4a43-8939-0b5f7acdf7b2" valueTypeId="dd9bf68f-ea06-4cd3-91d1-bd97420bbf6b"/>
+    <listType typeId="41cebdc4-83a8-4e4f-a245-571c0dddb5d0" valueTypeId="62208f11-372f-423b-bd89-032e2ac8a664"/>
+    <managerType typeId="556fe6b8-e38b-4638-9635-312c25e43ab2" valueTypeId="1874580c-e7b8-4c48-bdcd-29ae9789eb84"/>
+  </producedTypes>
+  <name>СостоянияЗаказовМагПэй</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояния заказов МагПэй</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="533defc1-5878-40b2-a7a9-2fdc9df0d453">
+    <name>PENDING</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ожидает дальнейших действий</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="24d27b29-1d6e-4530-b790-d3ca54246b37">
+    <name>CANCELLED</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клиент отказался от заказа</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="57bdaa0c-ae8c-46a9-8d9f-b8e9e1aea0af">
+    <name>REMOVED</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказ удален учетной системой</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e0b0eaf6-dccf-48d2-ad40-624c7a0dcd44">
+    <name>LOCKED</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказ заблокирован учетной системой</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="afd4023f-a1d8-4d08-b0b0-e05267201e2f">
+    <name>SELLING</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказ продается</value>
+    </synonym>
+    <comment>Промежуточное состояние</comment>
+  </enumValues>
+  <enumValues uuid="d049df8d-4190-4ca7-ad59-630ee7f15f2b">
+    <name>SOLD</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказ продан (полностью или частично)</value>
+    </synonym>
+    <comment>Последняя операция - продажа</comment>
+  </enumValues>
+  <enumValues uuid="bb1f4e60-2e84-4b9b-8126-09c1f7ff6574">
+    <name>REFUNDING</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказ в процессе возврата</value>
+    </synonym>
+    <comment>Промежуточное состояние</comment>
+  </enumValues>
+  <enumValues uuid="45c6c1ab-5849-4da5-809d-0baf79dce069">
+    <name>REFUNDED</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказ продан (полностью или частично)</value>
+    </synonym>
+    <comment>Последняя операция - возврат</comment>
+  </enumValues>
+</mdclass:Enum>

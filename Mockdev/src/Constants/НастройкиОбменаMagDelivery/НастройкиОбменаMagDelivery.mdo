@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="55a1f1d2-3e28-402b-ae9b-e7bb7266cc0e">
+  <producedTypes>
+    <managerType typeId="fc4b4ef3-5fe9-4532-8631-ef3ae3236482" valueTypeId="c1c19fba-41b2-4822-8a10-a6552f0846a4"/>
+    <valueManagerType typeId="d6a97068-d0ec-4c21-8579-cb73e08bacff" valueTypeId="0800e20f-5833-4614-af11-2b71ebc45d0d"/>
+    <valueKeyType typeId="02fd335a-cfba-4fcd-848f-467ae7521e89" valueTypeId="27b4af30-cee4-4287-9b93-8246a87e8d91"/>
+  </producedTypes>
+  <name>НастройкиОбменаMagDelivery</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки обмена mag delivery</value>
+  </synonym>
+  <type>
+    <types>ValueStorage</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

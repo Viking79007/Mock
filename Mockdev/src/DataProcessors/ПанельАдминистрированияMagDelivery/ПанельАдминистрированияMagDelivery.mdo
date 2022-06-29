@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="52fbb4b2-7097-416b-87a8-01d88bc6f62e">
+  <producedTypes>
+    <objectType typeId="30abc9d5-681d-40be-871f-cd961a992274" valueTypeId="f70a6564-3f56-48cc-8948-0f91089350b3"/>
+    <managerType typeId="68760cce-f9bc-4746-8a4f-77e74b253eb0" valueTypeId="4b1e72e6-6823-408f-82d1-43b993cdeb66"/>
+  </producedTypes>
+  <name>ПанельАдминистрированияMagDelivery</name>
+  <synonym>
+    <key>ru</key>
+    <value>Панель администрирования Mag Delivery</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПанельАдминистрированияMagDelivery.Form.Настройки</defaultForm>
+  <forms uuid="e1a6d46c-06e4-4b4d-8b74-defa7c37b963">
+    <name>Настройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

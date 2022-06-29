@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="27d4b84b-9ebe-40c5-a8c0-8cbb5e0f2233">
+  <producedTypes>
+    <refType typeId="539ad02d-4fe2-4524-a625-08cd6f9e1f73" valueTypeId="cbd9f837-936f-4ec2-8ced-88b64a2474d1"/>
+    <listType typeId="17982c95-b95f-440f-92b3-212a6f40277e" valueTypeId="710ea494-9295-4b89-b9b5-e018afeeae7c"/>
+    <managerType typeId="be8c41f3-e591-4e07-a0e1-1d3a49dcf862" valueTypeId="ed43aab8-9041-41c6-8b63-25a6eac13ee4"/>
+  </producedTypes>
+  <name>ТипыНалоговМагПэй</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы налогов МагПэй</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="c641806c-211b-4e3b-a492-eea3abbeebf3">
+    <name>NONE</name>
+    <synonym>
+      <key>ru</key>
+      <value>Без НДС</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="46898059-3f84-4d1f-8ab7-a35966290477">
+    <name>VAT0</name>
+    <synonym>
+      <key>ru</key>
+      <value>Без НДС по ставке 0%</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4ddaea05-73e2-4430-a2c8-c039efc62693">
+    <name>VAT10</name>
+    <synonym>
+      <key>ru</key>
+      <value>Без НДС по ставке 10%</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ca0d21b9-660c-4d7d-814a-95d5793147fe">
+    <name>VAT20</name>
+    <synonym>
+      <key>ru</key>
+      <value>Без НДС по ставке 20%</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="be8ec40b-1b1f-47d3-8d02-de9dcebd6fa7">
+    <name>VAT110</name>
+    <synonym>
+      <key>ru</key>
+      <value>Без НДС по расчетной ставке 10/110</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="79da3bbc-4cfc-4a87-afec-bcd8dbe86016">
+    <name>VAT120</name>
+    <synonym>
+      <key>ru</key>
+      <value>Без НДС по расчетной ставке 20/120</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

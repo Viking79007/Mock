@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="523e777c-4cbb-43f8-bbbb-23c70c959fe4">
+  <producedTypes>
+    <refType typeId="90248bb6-6ecd-4425-b011-20c22a902e15" valueTypeId="7ce6ee38-dcfd-4d47-b51d-fe11fd2a470c"/>
+    <listType typeId="204f05f5-aea8-4369-a141-ba576ebb360d" valueTypeId="a6ad37b2-7144-4192-9dde-e2ea8a3a1f18"/>
+    <managerType typeId="109e15d6-216f-4e81-90f5-6102af45fbcc" valueTypeId="b78de0eb-32f8-48b6-93a8-35ccb23258af"/>
+  </producedTypes>
+  <name>ТипыОперацийФискальногоРегистратораМагПэй</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы операций фискального регистратора МагПэй</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="bc89ccf3-b4ed-4321-87c8-f67eff6a0544">
+    <name>SELL</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продажа</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="eae583e1-f701-4305-b5f0-4a857814ae35">
+    <name>SELL_REFUND</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возврат</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

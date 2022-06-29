@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="852ac5ec-bdbc-4f74-a0bc-b21160c9ce61">
+  <producedTypes>
+    <managerType typeId="3de71652-668a-4d2a-8b25-4b8ce9e9d903" valueTypeId="946da6e9-e064-45c1-a906-1ed32b32da0a"/>
+    <valueManagerType typeId="192a8a85-c9f5-4e24-9b2d-332f6ccb710b" valueTypeId="8c475181-a0d6-493d-bf5b-ad91da2cc61c"/>
+    <valueKeyType typeId="5107757a-e1cb-4ee9-aa61-0286d753ae35" valueTypeId="d2d45312-d205-4ba0-ac1c-8f1d2a3a34e4"/>
+  </producedTypes>
+  <name>ВерсияAPIMagDelivery</name>
+  <synonym>
+    <key>ru</key>
+    <value>Версия API MagDelivery</value>
+  </synonym>
+  <type>
+    <types>EnumRef.ВерсииAPIMagDelivery</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

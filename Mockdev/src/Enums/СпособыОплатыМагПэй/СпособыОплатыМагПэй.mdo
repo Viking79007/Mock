@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="76f5d3f7-ba29-4271-9128-dd9328edc828">
+  <producedTypes>
+    <refType typeId="11ab07bd-95ef-4c9b-9653-ce490d999190" valueTypeId="607312e8-4999-4642-a94a-2adadaa99f4a"/>
+    <listType typeId="13929c5d-8239-4cf6-86b4-4241f71c3f08" valueTypeId="f63de368-cc10-4872-9265-76f9758d1d35"/>
+    <managerType typeId="19669913-587e-41a7-b576-d56a89654a5e" valueTypeId="60c8b1a7-f25c-4594-9f3b-5d9dc6c3dbf6"/>
+  </producedTypes>
+  <name>СпособыОплатыМагПэй</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способы оплаты МагПэй</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="878ec50b-e2ff-4788-95e1-4ca5405679f1">
+    <name>CASH</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наличные</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4db42123-1564-4983-a0b2-34f605599838">
+    <name>CARD</name>
+    <synonym>
+      <key>ru</key>
+      <value>Банковская карта</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d375a887-b6b0-4781-90d1-aa9c83e26852">
+    <name>ACQUIRING</name>
+    <synonym>
+      <key>ru</key>
+      <value>Эквайринг</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

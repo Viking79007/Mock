@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="82d1c391-7e18-4261-9754-2688a804b324">
+  <producedTypes>
+    <refType typeId="fef38974-cdcc-432c-8043-a89015d57bba" valueTypeId="cc3d1ca8-aa66-4b6c-89d1-93a79ec01557"/>
+    <listType typeId="e9d7d38f-b9b3-4198-a80e-7c56df5995fc" valueTypeId="3f8e83bb-7e70-4f48-8e10-fbf393be5163"/>
+    <managerType typeId="f7fa9e7f-6b90-41bf-86ef-33aa2f938a28" valueTypeId="bfd3c6ad-54b7-451a-be88-593461b306c7"/>
+  </producedTypes>
+  <name>ТипыДоставки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы доставки</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="61650160-2b57-4b24-bfdc-d3e35a87b6fa">
+    <name>Водитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Водитель</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="eb7ac349-84f0-4677-bdc5-e2eb314cfe6a">
+    <name>Курьер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Курьер</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

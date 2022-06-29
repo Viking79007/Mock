@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="32679e40-088c-410d-8df9-d6a19b608846">
+  <name>ОбменMagDelivery</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен mag delivery</value>
+  </synonym>
+  <rootURL>MagDelivery</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="19dc28d6-008d-421a-85e6-edc88d438707">
+    <name>warehouse_to_customer</name>
+    <synonym>
+      <key>ru</key>
+      <value>Warehouse to customer</value>
+    </synonym>
+    <template>/api/{version}/account-system/orders/warehouse_to_customer/*</template>
+    <methods uuid="de83c31d-644b-4807-af4f-61efdfe35eb2">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>warehouse_to_customerPOST</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="c96a4116-5267-4df9-91ba-425d65b70b9c">
+    <name>status</name>
+    <synonym>
+      <key>ru</key>
+      <value>Status</value>
+    </synonym>
+    <template>/status/*</template>
+    <methods uuid="7a7daf4f-b1fd-44cb-a101-42049f95d5c6">
+      <name>get</name>
+      <synonym>
+        <key>ru</key>
+        <value>Get</value>
+      </synonym>
+      <handler>statusgetstatus</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

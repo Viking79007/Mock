@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="012285ce-5d18-4032-8c14-25255f8000d2">
+  <name>ОбменMagPay</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен mag pay</value>
+  </synonym>
+  <rootURL>MagPay</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="d9c77dde-cddb-482e-8299-a2557d7f5344">
+    <name>orders</name>
+    <synonym>
+      <key>ru</key>
+      <value>orders</value>
+    </synonym>
+    <template>/api/{version}/orders/</template>
+    <methods uuid="acb04e8e-81b2-4ea1-855d-3edcfa67bc72">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ordersPOST</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="529ee176-eab3-41a5-92fd-56451b10528f">
+    <name>report</name>
+    <synonym>
+      <key>ru</key>
+      <value>report</value>
+    </synonym>
+    <template>/api/{version}/orders/report/</template>
+    <methods uuid="6b3ca308-195f-4b9a-ab66-bb00f4ad6c0b">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>reportPOST</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>
